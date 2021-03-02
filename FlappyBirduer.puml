@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+actor "Player" as fc
+rectangle FlappyBird {
+    usecase "Show menu" as UC1
+    usecase "start new game" as UC2
+    usecase "jump" as UC3
+    usecase "pause game" as UC4
+    usecase "exit to mainmenue" as UC5
+    usecase "check barriercross" as UC6
+    usecase "calculate points (increment)" as UC7
+    usecase "end game" as UC8
+    usecase "change setting" as UC9
+    usecase "Exit" as UC10
+}
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+fc --> UC9
+fc --> UC10
+@enduml
