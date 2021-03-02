@@ -72,3 +72,4 @@ bird_movement = 0
 game_active = True
 score = 0
 high_score = 0
+122
